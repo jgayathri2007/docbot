@@ -1,0 +1,12 @@
+# Secrets - NEVER commit these
+.env
+.env.*
+!.env.example
+
+# Generated / local
+index/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store

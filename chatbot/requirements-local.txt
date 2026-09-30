@@ -1,0 +1,4 @@
+# Optional: only for offline embeddings / Claude answers (heavy, not for Render free tier)
+-r requirements.txt
+sentence-transformers>=3.0.0
+anthropic>=0.40.0
